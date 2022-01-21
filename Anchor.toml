@@ -9,7 +9,7 @@ wallet = "~/.config/solana/id.json"
 mpl_auction_house="hausS13jsjafwWwGqZTUQRmWyvyxn9EQpqMwV1PBBmk"
 
 [[test.genesis]]
-address = "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"
+address = "metaMoxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"
 program = "target/deploy/mpl_token_metadata.so"
 
 [[test.genesis]]
