@@ -31,8 +31,8 @@ jobs:
           package:
             - 'metaplex/**'
   build-and-create-artifact-vault:
-    # needs: changes
-    # if: ${{ needs.changes.outputs.core == 'true' || needs.changes.outputs.package == 'true' }}
+    needs: changes
+    if: ${{ needs.changes.outputs.core == 'true' || needs.changes.outputs.package == 'true' }}
     runs-on: ubuntu-latest
     env:
       cache_id: create-artifact-vault
