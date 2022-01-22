@@ -6,14 +6,14 @@ cluster = "localnet"
 wallet = "~/.config/solana/id.json"
 
 [programs.localnet]
-mpl_auction_house="hausS13jsjafwWwGqZTUQRmWyvyxn9EQpqMwV1PBBmk"
+mpl_auction_house="hausMo3jsjafwWwGqZTUQRmWyvyxn9EQpqMwV1PBBmk"
 
 [[test.genesis]]
 address = "metaMoxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"
 program = "target/deploy/mpl_token_metadata.so"
 
 [[test.genesis]]
-address = "hausS13jsjafwWwGqZTUQRmWyvyxn9EQpqMwV1PBBmk"
+address = "hausMo3jsjafwWwGqZTUQRmWyvyxn9EQpqMwV1PBBmk"
 program = "target/deploy/mpl_auction_house.so"
 
 [[test.genesis]]

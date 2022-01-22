@@ -2,7 +2,7 @@
 'use strict';
 
 const PROGRAM_NAME = 'auction_house';
-const PROGRAM_ID = 'hausS13jsjafwWwGqZTUQRmWyvyxn9EQpqMwV1PBBmk';
+const PROGRAM_ID = 'hausMo3jsjafwWwGqZTUQRmWyvyxn9EQpqMwV1PBBmk';
 
 const path = require('path');
 const generatedIdlDir = path.join(__dirname, '..', 'idl');
